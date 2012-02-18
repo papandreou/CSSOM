@@ -2,7 +2,7 @@
 	"name": "cssom-papandreou",
 	"description": "CSS Object Model implementation and CSS parser (fork that hacks in support for multiple occurrences of the same CSS property in a rule)",
 	"keywords": ["CSS", "CSSOM", "parser", "styleSheet"],
-	"version": "0.2.3",
+	"version": "0.2.3-patch1",
 	"homepage": "https://github.com/NV/CSSOM",
 	"author": "Nikita Vasilyev <me@elv1s.ru>",
 	"repository": {
