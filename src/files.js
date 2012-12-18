@@ -12,6 +12,7 @@ exports.files = [
     "CSSKeyframeRule",
     "CSSHostRule",
     "CSSDocumentRule",
+    "CSSDocumentRule",
     "CSSValue",
     "CSSValueExpression",
     "parse",
