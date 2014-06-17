@@ -7,7 +7,7 @@
     "parser",
     "styleSheet"
   ],
-  "version": "0.2.4-patch4",
+  "version": "0.2.4-patch5",
   "homepage": "https://github.com/NV/CSSOM",
   "author": "Nikita Vasilyev <me@elv1s.ru>",
   "repository": {
