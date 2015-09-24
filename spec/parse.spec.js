@@ -938,7 +938,7 @@ var TESTS = [
 		})()
 	},
 	{
-		input: 'body {color:red;}{color: green;font-size: 13px;}',
+		input: 'body {color:red;}{color: green;font-size: 13px;}span{color:green;}',
 		result: (function() {
 			var result = {
 				cssRules: [
@@ -949,6 +949,17 @@ var TESTS = [
 							length: 1,
 							parentRule: "..",
 							color: "red"
+						},
+						parentRule: null,
+						parentStyleSheet: "../.."
+					},
+					{
+						selectorText: "span",
+						style: {
+							0: "color",
+							length: 1,
+							parentRule: "..",
+							color: "green"
 						},
 						parentRule: null,
 						parentStyleSheet: "../.."
