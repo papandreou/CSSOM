@@ -1,5 +1,5 @@
 {
-	"name": "cssom",
+	"name": "cssom-papandreou",
 	"description": "CSS Object Model implementation and CSS parser",
 	"keywords": ["CSS", "CSSOM", "parser", "styleSheet"],
 	"version": "0.3.0",
@@ -7,9 +7,9 @@
 	"author": "Nikita Vasilyev <me@elv1s.ru>",
 	"repository": {
 		"type": "git",
-		"url": "git://github.com/NV/CSSOM.git"
+		"url": "git://github.com/papandreou/CSSOM.git"
 	},
-	"bugs": "https://github.com/NV/CSSOM/issues",
+	"bugs": "https://github.com/papandreou/CSSOM/issues",
 	"main": "./lib/index.js",
 	"devDependencies": {
 		"jake": "~0.7.3"
